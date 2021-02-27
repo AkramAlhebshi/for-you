@@ -1,0 +1,439 @@
+body {
+  text-align: center;
+  background-color: #bdbdbd;
+}
+
+a {
+  pointer-events: visible;
+}
+
+button {
+  pointer-events: visible;
+}
+
+iframe {
+    width: 30px;
+}
+
+.one {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 150px;
+  margin: 474px 459px 0 778px ;
+}
+
+.one:hover {
+  background-color: #fe91ca;
+  border-style: solid;
+  border-color: #251f44;
+  color: #d3dbff;
+}
+
+.two {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 150px;
+  margin: 574px 959px 284px 178px ;
+}
+
+.two:hover {
+  background-color: #fe91ca;
+  border-style: solid;
+  border-color: #251f44;
+  color: #d3dbff;
+}
+
+.three {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 100px;
+  margin: 338px 96px 272px 1100px ;
+}
+
+.three:hover {
+  background-color: #efa8e4;
+  border-style: solid;
+  border-color: #97e5ef;
+  color: #f8e1f4;
+}
+
+.four {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 100px;
+  position: absolute;
+  left: 0%;
+  margin: 528px 0 272px 0 ;
+}
+
+.four:hover {
+  background-color: #f09ae9;
+  border-style: solid;
+  border-color: #ffd36b;
+  color: #ffe78f;
+}
+
+.five {
+  background-color: white;
+  border-style: none;
+  position: absolute;
+  bottom: 0;
+  color: azure;
+  width: 100px;
+  margin: 0 524px 0 565px ;
+}
+
+.five:hover {
+  background-color: #fbcffc;
+  border-style: solid;
+  border-color: #be79df;
+  color: #cff1ef;
+}
+
+.six {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 100px;
+  margin: 655px 984px 192px 845px ;
+}
+
+.six:hover {
+  background-color: #ee91bc;
+  border-style: solid;
+  border-color: #a8df65;
+  color: #edf492;
+}
+
+.seven {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  margin: 0 0 0 -545px ;
+}
+
+.seven:hover {
+  background-color: #efb1ff;
+  border-style: solid;
+  border-color: #481380 ;
+  color: #ffe2ff;
+}
+
+.eight {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 100px;
+  margin: 338px 96px 272px 1100px ;
+}
+
+.eight:hover {
+  background-color: #e6739f;
+  border-style: solid;
+  border-color: #cc0e74;
+  color: #ffb2a7;
+}
+
+.nine {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 100px;
+  margin: 485px 635px 155px 896px ;
+}
+
+.nine:hover {
+  background-color: #ff4057;
+  border-style: solid;
+  border-color: #e41749;
+  color: #ff8a5c;
+}
+
+.ten {
+  background-color: white;
+  border-style: none;
+  color: azure;
+  width: 100px;
+  margin: 21% auto;
+}
+
+.ten:hover {
+  background-color: #fd0054;
+  border-style: solid;
+  border-color: #2b2024;
+  color: #fbf9fa;
+}
+
+ body {
+     background-color: #FAFAFA
+ }
+
+ .heartbox {
+     position: absolute;
+     top: 400px;
+     left: 50%;
+ }
+
+ svg {
+     cursor: pointer;
+     overflow: visible;
+     width: 80%;
+     margin: 20px
+ }
+
+ svg #heart {
+     transform-origin: center;
+     animation: animateHeartOut .3s linear forwards
+ }
+
+ svg #main-circ {
+     transform-origin: 29.5px 29.5px
+ }
+
+ .checkbox {
+     display: none
+ }
+
+ .checkbox:hover+label svg #heart {
+     transform: scale(0.2);
+     fill: #E2264D;
+     animation: animateHeart .3s linear forwards .25s
+ }
+
+ .checkbox:hover+label svg #main-circ {
+     transition: all 2s;
+     animation: animateCircle .3s linear forwards;
+     opacity: 1
+ }
+
+ .checkbox:hover+label svg #heartgroup1 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup1 #heart1 {
+     transform: scale(0) translate(0, -30px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup1 #heart2 {
+     transform: scale(0) translate(10px, -50px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup2 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup2 #heart1 {
+     transform: scale(0) translate(30px, -15px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup2 #heart2 {
+     transform: scale(0) translate(60px, -15px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup3 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup3 #heart1 {
+     transform: scale(0) translate(30px, 0px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup3 #heart2 {
+     transform: scale(0) translate(60px, 10px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup4 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup4 #heart1 {
+     transform: scale(0) translate(30px, 15px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup4 #heart2 {
+     transform: scale(0) translate(40px, 50px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup5 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup5 #heart1 {
+     transform: scale(0) translate(-10px, 20px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup5 #heart2 {
+     transform: scale(0) translate(-60px, 30px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup6 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup6 #heart1 {
+     transform: scale(0) translate(-30px, 0px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup6 #heart2 {
+     transform: scale(0) translate(-60px, -5px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup7 {
+     opacity: 1;
+     transition: .1s all .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup7 #heart1 {
+     transform: scale(0) translate(-30px, -15px);
+     transform-origin: 0 0 0;
+     transition: .5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup7 #heart2 {
+     transform: scale(0) translate(-55px, -30px);
+     transform-origin: 0 0 0;
+     transition: 1.5s transform .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup2 {
+     opacity: 1;
+     transition: .1s opacity .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup3 {
+     opacity: 1;
+     transition: .1s opacity .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup4 {
+     opacity: 1;
+     transition: .1s opacity .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup5 {
+     opacity: 1;
+     transition: .1s opacity .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup6 {
+     opacity: 1;
+     transition: .1s opacity .3s
+ }
+
+ .checkbox:hover+label svg #heartgroup7 {
+     opacity: 1;
+     transition: .1s opacity .3s
+ }
+
+ @keyframes animateCircle {
+     40% {
+         transform: scale(10);
+         opacity: 1;
+         fill: #DD4688
+     }
+
+     55% {
+         transform: scale(11);
+         opacity: 1;
+         fill: #D46ABF
+     }
+
+     65% {
+         transform: scale(12);
+         opacity: 1;
+         fill: #CC8EF5
+     }
+
+     75% {
+         transform: scale(13);
+         opacity: 1;
+         fill: transparent;
+         stroke: #CC8EF5;
+         stroke-width: .5
+     }
+
+     85% {
+         transform: scale(17);
+         opacity: 1;
+         fill: transparent;
+         stroke: #CC8EF5;
+         stroke-width: .2
+     }
+
+     95% {
+         transform: scale(18);
+         opacity: 1;
+         fill: transparent;
+         stroke: #CC8EF5;
+         stroke-width: .1
+     }
+
+     100% {
+         transform: scale(19);
+         opacity: 1;
+         fill: transparent;
+         stroke: #CC8EF5;
+         stroke-width: 0
+     }
+ }
+
+ @keyframes animateHeart {
+     0% {
+         transform: scale(0.2)
+     }
+
+     40% {
+         transform: scale(1.2)
+     }
+
+     100% {
+         transform: scale(1)
+     }
+ }
+
+ @keyframes animateHeartOut {
+     0% {
+         transform: scale(1.4)
+     }
+
+     100% {
+         transform: scale(1)
+     }
+ }
