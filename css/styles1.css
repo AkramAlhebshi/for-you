@@ -50,7 +50,7 @@ h3 {
 
  .heartbox {
      position: absolute;
-     top: 105%;
+     top: 135%;
      left: 40%;
      transform: translate(-50%, -50%)
  }
